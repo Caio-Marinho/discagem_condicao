@@ -3,12 +3,12 @@ novo = ''
 while menu != 6:
     numero1 = float(input(f"Digite {novo} o 1º Número: "))  #Inserir o primeiro numero
     numero2 = float(input(f"Digite {novo} o 2º Número: "))  #Inserir o segundo numero
-    menu = int(input("informe a opção\n"
+    menu = int(input("Selecione a operação\n"
                      "1 para soma\n"
                      "2 para subtração\n"
                      "3 para multiplicação\n"
                      "4 para divisão\n"
-                     "5 digitar um novo numero\n"
+                     "5 digitar novos números\n"
                      "6 para sair\n"
                      "Digite: "))  #Escolher a opção
 
@@ -38,4 +38,4 @@ while menu != 6:
     if menu != 5 and menu != 6:
         print("Começando novamente...")
 else:  #é chamado caso 6 seja selecionado
-    print("Obrigado pela sua atenção!!")
+    print("Programa encerrado!!!\nObrigado pela sua atenção!!")
