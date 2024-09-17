@@ -14,7 +14,7 @@ while menu != 6:
     match menu:
         case 1:
             soma = numero1 + numero2
-            print(f"A soma dos valores {numero1}+ {numero2} = {soma}")
+            print(f"A soma dos valores {numero1} + {numero2} = {soma}")
         case 2:
             subtracao = numero1 - numero2
             print(f"A subtração dos valores {numero1} - {numero2} = {subtracao}")
