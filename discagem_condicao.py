@@ -31,7 +31,11 @@ while menu != 6:
         case 5:  #repete para inserir um novo número
             print(end='')
             novo = 'um novo valor para'
-    if menu != 5:
+        case 6:
+            print(end='')
+        case _:
+            print("Opção Invalida!!")
+    if menu != 5 and menu != 6:
         print("Começando novamente...")
 else:  #é chamado caso 6 seja selecionado
     print("Obrigado pela sua atenção!!")
