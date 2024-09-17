@@ -1,6 +1,6 @@
 menu = 5
 novo = ''
-while menu == 5:
+while menu != 6:
     numero1 = float(input(f"Digite {novo} o 1º Número: "))
     numero2 = float(input(f"Digite {novo} o 2º Número: "))
     menu = int(input("informe a opção\n"
@@ -26,7 +26,7 @@ while menu == 5:
                 numero2 = int(input("Não é possível divisão por 0\n"
                                     "Informe um novo valor para o 2º Número: "))
             divisao = numero1 / numero2
-            print(f"A divisão dos valores {numero1} X {numero2} = {divisao}")
+            print(f"A divisão dos valores {numero1} / {numero2} = {divisao}")
         case 5:
             print(end='')
             novo = 'um novo valor para'
