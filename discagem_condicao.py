@@ -1,16 +1,8 @@
-numero1 = float(input(f"Digite o 1º Número: "))  #Inserir o primeiro numero
-numero2 = float(input(f"Digite o 2º Número: "))  #Inserir o segundo numero
-menu = int(input("informe a opção\n"
-                 "1 para soma\n"
-                 "2 para subtração\n"
-                 "3 para multiplicação\n"
-                 "4 para divisão\n"
-                 "5 digitar um novo numero\n"
-                 "6 para sair\n"
-                 "Digite: "))  #Escolher a opção
-while menu == 5:
-    numero1 = float(input(f"Digite um novo valor para o 1º Número: "))  #Inserir o primeiro numero
-    numero2 = float(input(f"Digite um novo valor para o 2º Número: "))  #Inserir o segundo numero
+menu = 5
+novo = ''
+while menu != 6:
+    numero1 = float(input(f"Digite {novo} o 1º Número: "))  #Inserir o primeiro numero
+    numero2 = float(input(f"Digite {novo} o 2º Número: "))  #Inserir o segundo numero
     menu = int(input("informe a opção\n"
                      "1 para soma\n"
                      "2 para subtração\n"
@@ -36,3 +28,6 @@ match menu:
                                 "Informe um novo valor para o 2º Número: "))
         divisao = numero1 / numero2
         print(f"A divisão dos valores {numero1} / {numero2} = {divisao}")
+    case 5:  #repete para inserir um novo número
+        print(end='')
+        novo = 'um novo valor para'
