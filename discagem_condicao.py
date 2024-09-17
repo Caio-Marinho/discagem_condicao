@@ -17,7 +17,7 @@ while menu != 6:
             print(f"A soma dos valores {numero1}+ {numero2} = {soma}")
         case 2:
             subtracao = numero1 - numero2
-            print(f"A subtracao dos valores {numero1} - {numero2} = {subtracao}")
+            print(f"A subtração dos valores {numero1} - {numero2} = {subtracao}")
         case 3:
             multiplicacao = numero1 * numero2
             print(f"A multiplicação dos valores {numero1} X {numero2} = {multiplicacao}")
