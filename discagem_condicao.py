@@ -40,4 +40,5 @@ while menu != 6:
     if menu != 5 and menu != 6:
         print("Começando novamente...")
 else:  #é chamado caso 6 seja selecionado
-    print("Programa encerrado!!!\nObrigado pela sua atenção!!")
+    print("Programa encerrado!!!\n"
+          "Obrigado pela sua atenção!!")
