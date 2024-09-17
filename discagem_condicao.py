@@ -23,7 +23,7 @@ while menu == 5:
             print(f"A multiplicação dos valores {numero1} X {numero2} = {multiplicacao}")
         case 4:
             if numero2 == 0:
-                numero2 = int(input("Não é possivel divisão por 0\n"
+                numero2 = int(input("Não é possível divisão por 0\n"
                                     "Informe um novo valor para o 2º Número: "))
             divisao = numero1 / numero2
             print(f"A divisão dos valores {numero1} X {numero2} = {divisao}")
