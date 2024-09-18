@@ -8,7 +8,6 @@ menu = int(input("Selecione a operação\n"
                  "5 digitar novos números\n"
                  "6 para sair\n"
                  "Digite: "))  #Escolher a opção
-
 while menu == 5:
     informe = int(input("Informe qual número você deseja alterar\n"
                         "1 para o 1º número\n"
