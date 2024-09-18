@@ -1,6 +1,6 @@
 menu = 5
 novo = ''
-while menu != 6:
+while menu == 5:
     numero1 = float(input(f"Digite {novo} o 1º Número: "))  #Inserir o primeiro numero
     numero2 = float(input(f"Digite {novo} o 2º Número: "))  #Inserir o segundo numero
     menu = int(input("Selecione a operação\n"
