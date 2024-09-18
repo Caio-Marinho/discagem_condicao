@@ -8,6 +8,7 @@ menu = int(input("Selecione a operação\n"
                  "5 digitar novos números\n"
                  "6 para sair\n"
                  "Digite: "))  #Escolher a opção
+
 while menu == 5:
     numero1 = float(input(f"Digite um novo valor para o 1º Número: "))  #Inserir o primeiro numero
     numero2 = float(input(f"Digite um novo valor para o 2º Número: "))  #Inserir o segundo numero
